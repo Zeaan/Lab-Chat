@@ -12,7 +12,7 @@ Step 3: Now to get code on your machine, you have to clone the repository. Click
 
 Step 4: Now click on the clipboard button.
 
-<img scr="Assets/copy-to-clipboard.png" alt="copy-to-clipboard">
+<img src="Assets/copy-to-clipboard.png" alt="copy-to-clipboard">
 
 Step 5: Open a terminal and run the this git command using the following format
 git clone https://github.com/(Your Github username)/Lab-Chat.git
