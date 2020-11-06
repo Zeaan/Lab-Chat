@@ -1,0 +1,22 @@
+create database LabChat;
+
+Use LabChat;
+
+create table UserInfo
+(
+User varchar(50) primary key,
+Password varchar(50) unique key,
+City varchar(50)
+);
+
+insert into UserInfo
+Values('Zeaan Pithawala','zeaan','Navsari');
+
+create table ChattingSystem
+(
+Sender varchar(50),
+Reciever varchar(50),
+Message varchar(160),
+Status varchar(5),
+SentTime datetime
+);
