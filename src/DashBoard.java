@@ -25,7 +25,7 @@ public class DashBoard extends javax.swing.JFrame {
     String UserName=LogIn.jTextField1.getText();
     public DashBoard(){
         initComponents();
-        //This will extract time from the system
+        //This will extract time from the computer system
         Date Current=new java.util.Date();
         SimpleDateFormat date=new SimpleDateFormat("HH:mm");
         try
